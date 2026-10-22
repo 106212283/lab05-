@@ -1,0 +1,110 @@
+/*
+filename: lab04.css
+author: Amani Abdelrahim Elsayed
+created: 15/10/2026
+last modified: 15/10/2026
+description: CSS styling for lab04.html
+*/
+
+/* Universal selector */
+* {
+    font-family: Calibri, sans-serif;
+    color: #2F4F4F;
+}
+
+/* Page width and spacing */
+body {
+    width: 800px;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+/* Main heading */
+h1 {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Section headings */
+h2 {
+    color: rgb(0,128,128);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Heading fonts */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+/* Italic text */
+aside, footer {
+    font-style: italic;
+}
+
+/* Table borders */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Centre Images heading */
+#images {
+    text-align: center;
+}
+
+/* Red Headings subsection */
+#heading-title {
+    color: red;
+}
+
+/* Special characters */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+/* Month headings */
+.month {
+    text-align: right;
+}
+
+/* Navigation links */
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+/* Nested unordered lists */
+ol ul {
+    list-style-type: square;
+}
+
+/* Hide aside when hovered */
+aside:hover {
+    display: none;
+}
+
+/* Navigation hover */
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+
+/* Main content border */
+article {
+    border-left: 1px solid #2F4F4F;
+    padding-left: 8px;
+}
+
+/* Header border */
+header {
+    border-left: 1px solid #2F4F4F;
+    padding-left: 8px;
+}
+
+/* Horizontal line */
+hr {
+    border: 1px solid #2F4F4F;
+}
